@@ -2,6 +2,8 @@ bin/*
 obj/*
 UnityUtilities/obj/*
 
+*.userprefs
+
 MonoDevelop.Ide.Unity/bin
 MonoDevelop.Ide.Unity/obj
 MonoDevelop.Ide.Unity/build

@@ -1,3 +1,5 @@
+MDTOOL_PATH="/usr/local/lib/monodevelop/bin/mdtool.exe"
+
 rm -rf build-mpacks
 rm -rf build
 
@@ -7,6 +9,6 @@ mkdir build-mpacks
 
 cd build-mpacks
 
-mono "/Applications/Xamarin Studio 6.1.2.app/Contents/Resources/lib/monodevelop/bin/mdtool.exe" setup pack ../build/MonoDevelop.Debugger.Soft.Unity.dll ../UnityUtilities/build/UnityUtilities.dll
+mono $MDTOOL_PATH setup pack ../build/MonoDevelop.Debugger.Soft.Unity.dll ../UnityUtilities/build/UnityUtilities.dll
 
 cd ..
